@@ -2,13 +2,9 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '姐姐, 情人节快乐',
     desc: `
-     {
-    id: "0001",
-    title: "姐姐, 情人节快乐",
-    desc: `
-     **{{date.DATA}}**
+      **{{date.DATA}}**
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -37,8 +33,6 @@ const TEMPLATE_CONFIG = [
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
-    `,
-  },
     `
   },
   {
